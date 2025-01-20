@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    padding-top: 80px
+}
+
+.calculator{
+    border-radius: 15px;
+    margin: auto;
+    background-color: grey;
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    padding: 15px;
+    height: 20%;
+    display: flex;
+    gap: 15px;
+}
+
+.row .disp-container {
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.row .disp-container h2 {
+   font-size: 40px;
+}
+
+button {
+    flex: 1;
+    border-radius: 8px;
+    font-size: 32px;
+}
+
+#c-0 {
+    flex: 1;
+}
+
+#c-equals {
+    flex: 2;
+}
+
+#c-divide {
+    flex: 1;
+}
